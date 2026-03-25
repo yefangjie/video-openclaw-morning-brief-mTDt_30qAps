@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw Morning Brief - Use Cases</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #1a1a2e;
+        }
+        .slide {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            text-align: center;
+        }
+        .slide:nth-child(odd) { background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%); }
+        .slide:nth-child(even) { background: linear-gradient(135deg, #48dbfb 0%, #0abde3 100%); }
+        .slide:nth-child(3n) { background: linear-gradient(135deg, #1dd1a1 0%, #10ac84 100%); }
+        .slide:nth-child(4n) { background: linear-gradient(135deg, #5f27cd 0%, #341f97 100%); color: white; }
+        
+        h1 { font-size: 4em; margin-bottom: 30px; text-shadow: 2px 2px 4px rgba(0,0,0,0.1); }
+        h2 { font-size: 3em; margin-bottom: 40px; }
+        h3 { font-size: 2em; margin: 20px 0; }
+        p { font-size: 1.5em; line-height: 1.6; max-width: 800px; margin: 20px auto; }
+        ul { text-align: left; font-size: 1.3em; max-width: 700px; }
+        li { margin: 15px 0; }
+        .emoji { font-size: 1.5em; }
+        .number-badge {
+            background: white;
+            color: #333;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 20px auto;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            max-width: 900px;
+            margin-top: 40px;
+        }
+        .card {
+            background: rgba(255,255,255,0.95);
+            padding: 30px;
+            border-radius: 20px;
+            color: #333;
+        }
+        .cta {
+            background: #ff6b6b;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 30px;
+            display: inline-block;
+        }
+        footer {
+            background: #1a1a2e;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        @media print {
+            .slide { page-break-after: always; min-height: 100vh; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Slide 1: Title -->
+    <div class="slide">
+        <div class="emoji">🤖</div>
+        <h1>OpenClaw</h1>
+        <h2>Morning Brief Use Case</h2>
+        <p>Your 2-Minute Daily Intelligence Briefing</p>
+        <p style="font-size: 1em; margin-top: 40px; opacity: 0.8;">Generated from YouTube Video</p>
+    </div>
+
+    <!-- Slide 2: What is Morning Brief -->
+    <div class="slide">
+        <div class="emoji">📋</div>
+        <h2>What is Morning Brief?</h2>
+        <p>An automated 2-minute message delivered at the start of your day</p>
+        <p>Provides a complete outline for the day ahead</p>
+    </div>
+
+    <!-- Slide 3: 4 Key Components -->
+    <div class="slide">
+        <div class="emoji">🎯</div>
+        <h2>4 Key Components</h2>
+        <div class="card-grid">
+            <div class="card">
+                <div class="emoji">📧</div>
+                <h3>Email Summary</h3>
+                <p style="font-size: 1em;">Scan, prioritize, flag urgent</p>
+            </div>
+            <div class="card">
+                <div class="emoji">📅</div>
+                <h3>Calendar Overview</h3>
+                <p style="font-size: 1em;">Daily meetings & summaries</p>
+            </div>
+            <div class="card">
+                <div class="emoji">✅</div>
+                <h3>Task Recommendations</h3>
+                <p style="font-size: 1em;">High-priority tasks for today</p>
+            </div>
+            <div class="card">
+                <div class="emoji">📰</div>
+                <h3>News Digest</h3>
+                <p style="font-size: 1em;">Industry-relevant overnight news</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Email Summary Detail -->
+    <div class="slide">
+        <div class="emoji">📧</div>
+        <div class="number-badge">1</div>
+        <h2>Email Summary</h2>
+        <ul>
+            <li>🤖 OpenClaw scans all your emails</li>
+            <li>✨ Identifies which ones need replies</li>
+            <li>🚨 Flags urgent messages immediately</li>
+            <li>💡 Summarizes email content</li>
+        </ul>
+    </div>
+
+    <!-- Slide 5: Calendar Overview Detail -->
+    <div class="slide">
+        <div class="emoji">📅</div>
+        <div class="number-badge">2</div>
+        <h2>Calendar Overview</h2>
+        
+        <ul>
+            <li>📋 Lists all scheduled meetings for the day</li>
+            <li>⏰ Provides meeting time summaries</li>
+            <li>🎯 Helps you prepare for the day</li>
+        </ul>
+    </div>
+
+    <!-- Slide 6: Task Recommendations Detail -->
+    <div class="slide">
+        <div class="emoji">✅</div>
+        <div class="number-badge">3</div>
+        <h2>Task Recommendations</h2>
+        
+        <ul>
+            <li>📊 Reviews your task list</li>
+            <li>🎯 Suggests high-priority tasks</li>
+            <li>💪 Recommends what to do today</li>
+        </ul>
+    </div>
+
+    <!-- Slide 7: News Digest Detail -->
+    <div class="slide">
+        <div class="emoji">📰</div>
+        <div class="number-badge">4</div>
+        <h2>News Digest</h2>
+        
+        <ul>
+            <li>🌙 Reads overnight news automatically</li>
+            <li>🎯 Filters based on your industry (Tech & AI)</li>
+            <li>📄 Delivers concise summaries</li>
+        </ul>
+    </div>
+
+    <!-- Slide 8: Benefits -->
+    <div class="slide">
+        <div class="emoji">🚀</div>
+        <h2>Key Benefits</h2>
+        
+        <div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+            <div class="card">
+                <h3>⏱️ Save Time</h3>
+                <p style="font-size: 1em;">Automate information gathering</p>
+            </div>
+            <div class="card">
+                <h3>🎯 Stay Focused</h3>
+                <p style="font-size: 1em;">Never miss important updates</p>
+            </div>
+            <div class="card">
+                <h3>🔧 Personalized</h3>
+                <p style="font-size: 1em;">Industry-relevant content</p>
+            </div>
+            <div class="card">
+                <h3>📈 Productive</h3>
+                <p style="font-size: 1em;">Prioritize daily activities</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: Coming Up -->
+    <div class="slide">
+        <div class="emoji">🔮</div>
+        <h2>Coming Up Next</h2>
+        
+        <h3>Proactive Research</h3>
+        <p>OpenClaw investigates tasks and emails by automatically searching the web</p>
+    </div>
+
+    <!-- Slide 10: Get Started -->
+    <div class="slide">
+        <div class="emoji">🎉</div>
+        <h2>Start Your Morning Brief Today!</h2>
+        
+        <p>Transform how you start your day with OpenClaw</p>
+        
+        <a href="https://github.com/openclaw/openclaw" class="cta">Get OpenClaw →</a>
+    </div>
+
+    <footer>
+        <p>🦞 Generated by OpenClaw AI | Style: Modern Minimal Pop</p>
+        <p>Source: https://youtu.be/mTDt_30qAps</p>
+    </footer>
+</body>
+</html>

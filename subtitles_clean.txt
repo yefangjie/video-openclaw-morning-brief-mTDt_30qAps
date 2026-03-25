@@ -1,0 +1,25 @@
+The first use case for OpenClaw you
+definitely need to set up is the morning
+brief. It's a two-minute message you
+receive at the beginning of your morning
+and it offers you an outline for the day
+ahead. For my morning brief, I get
+OpenClaw to scan through my emails and
+tell me exactly which ones I need to
+reply to or read, especially if there's
+something urgent. I also get it to have
+a look at my calendar and give me a
+summary of all the scheduled meetings I
+have for that day. Then I get it to have
+a look at my task list and give me a
+couple of tasks that are important that
+I should do that day. And finally, I get
+it to read through all the latest news
+that happened overnight and give me a
+summary of all the important ones based
+on the industry I'm in, which is tech
+and AI. The next use case for OpenCL is
+a research or proactive research. It's
+the ability for OpenClaw to go out on
+the web and start investigating tasks
+that you're doing, emails that you're
