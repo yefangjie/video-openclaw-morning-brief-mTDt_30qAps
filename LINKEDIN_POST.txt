@@ -1,0 +1,35 @@
+🤖 OpenClaw Morning Brief: The First Use Case You Need to Set Up
+
+Just discovered an amazing way to start my day with OpenClaw!
+
+The "Morning Brief" is a 2-minute automated message that gives you a complete outline for the day ahead:
+
+📧 Email Summary
+Scans all emails, identifies what needs replies, flags urgent messages
+
+📅 Calendar Overview  
+Lists all scheduled meetings with summaries
+
+✅ Task Recommendations
+Reviews task list and suggests high-priority items for today
+
+📰 News Digest
+Reads overnight news and filters relevant stories based on your industry (Tech & AI for me!)
+
+The best part? It's completely automated and personalized.
+
+Key Benefits:
+⏱️ Saves time by automating information gathering
+🎯 Ensures nothing important is missed
+🔧 Provides personalized, industry-relevant content
+📈 Helps prioritize daily activities
+
+I've created a full summary with slides - check it out!
+
+🔗 GitHub Repo: https://github.com/yefangjie/video-openclaw-morning-brief-mTDt_30qAps
+🎥 Source Video: https://youtu.be/mTDt_30qAps
+
+What's your morning routine? Would you use an AI-powered morning brief?
+
+---
+#OpenClaw #AI #Productivity #MorningRoutine #Automation #Tech #AITools
